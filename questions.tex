@@ -1,0 +1,26 @@
+\documentclass[a4paper,11pt,unicode]{extreport}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc} %\usepackage[cp1251]{inputenc}
+\usepackage{anysize,epstopdf,float,caption,subcaption,enumitem,longtable}
+\marginsize{25mm}{10mm}{20mm}{20mm}
+\usepackage{graphicx,tikz}
+\usetikzlibrary{arrows,shapes}
+\usepackage{array,hyperref}
+\graphicspath{{./img/}}
+\addto\captionsrussian{\renewcommand{\chaptername}{}}
+\usepackage{fancyhdr, fancyvrb}
+\newcommand{\HRule}{ {\color{lightgray}\rule{16cm}{0.5mm}}\medskip }
+
+\newcommand{\DrawNameStamp}{ \begin{flushright}Фамилия И.О.\hspace{.5cm}\rule[-.8mm]{5cm}{.4mm}\\
+Группа\hspace{.5cm}\makebox[5cm][l]{3О-505С}\\
+Число\hspace{.5cm}\makebox[5cm][l]{22 декабря 2018}\end{flushright}\medskip}
+
+\newcommand{\DrawHeader}[1]{\large\begin{center}\textbf{Лист вопросов №#1}\end{center}}\bigskip}
+
+\begin{document}
+\pagestyle{empty}
+
+\input{questions_content.tex}
+
+\end{document}

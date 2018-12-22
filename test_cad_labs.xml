@@ -1,0 +1,246 @@
+<exam>
+
+
+<!--
+  <question correct="1" txt="При помощи какой библиотеки Python можно запустить отрисовку растрового изображения из стандартного, распространённого векторного описания?">
+    <answer txt="cairosvg" />
+    <answer txt="networkx" />
+    <answer txt="matplotlib" />
+    <answer txt="lxml" />
+  </question>
+-->
+
+  <question correct="2" txt="При помощи какой библиотеки Python можно создать создать, обработать граф и разложить узлы?">
+    <answer txt="cairosvg" />
+    <answer txt="networkx" />
+    <answer txt="matplotlib" />
+    <answer txt="lxml" />
+  </question>
+
+  <question correct="1" txt="При помощи какой библиотеки Python можно организовать обработку структурированного описания структуры данных, сохранённого в файле?">
+    <answer txt="cairosvg" />
+    <answer txt="networkx" />
+    <answer txt="matplotlib" />
+    <answer txt="lxml" />
+  </question>
+
+  <question txt="Зачем нужны пространства имён в XML файлах?" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//b}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{/root/a/*}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{/root/a[last()]}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//@id}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//a[@id]}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//c[@id=&quot;att2&quot;]}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//b|//c}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//parent::c}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{/root/a[2]/descendant::*}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//root/c}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//*[count(@*)=0]}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+  <question no_lines="True" txt="Каким будет результат обработки XPath-выражения \begin{center}\texttt{//parent::b}\end{center}\\при запросе у следующего документа? \emph{(подчеркните структуру в XML-документе)}&#xA;&#xA;
+&#xA;
+{\small&#xA;
+\begin{Verbatim}[frame=single]&#xA;
+&lt;xml version=&quot;v1.0&quot;?&gt;&#xA;
+&lt;xml-stylesheet href=&quot;my.css&quot; type=&quot;text/css&quot;?&gt;&#xA;
+&lt;!-- Comment --&gt;&#xA;
+&lt;root&gt;&#xA;
+  &lt;a id=&quot;att1&quot;&gt;TextA&lt;/a&gt;&#xA;
+  &lt;a&gt;&#xA;
+    &lt;b&gt;TextB&lt;/b&gt;&#xA;
+    &lt;c id=&quot;TextC&quot; /&gt;&#xA;
+  &lt;/a&gt;&#xA;
+  &lt;b&gt;TextB&lt;/b&gt;&#xA;
+&lt;/root&gt;&#xA;
+\end{Verbatim}&#xA;
+}" />
+
+</exam>
+
